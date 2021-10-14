@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/listaKawiarniFragment">
+
+    <fragment
+        android:id="@+id/listaKawiarniFragment"
+        android:name="com.example.kawiarnie.ListaKawiarniFragment"
+        android:label="fragment_lista_kawiarni"
+        tools:layout="@layout/fragment_lista_kawiarni" >
+        <action
+            android:id="@+id/action_listaKawiarniFragment_to_nowaKawiarniaFragment"
+            app:destination="@id/nowaKawiarniaFragment"
+            app:popUpTo="@id/listaKawiarniFragment"
+            app:popUpToInclusive="false" />
+    </fragment>
+    <fragment
+        android:id="@+id/mapaKawiarniFragment"
+        android:name="com.example.kawiarnie.MapaKawiarniFragment"
+        android:label="fragment_mapa_kawiarni"
+        tools:layout="@layout/fragment_mapa_kawiarni" />
+    <fragment
+        android:id="@+id/nowaKawiarniaFragment"
+        android:name="com.example.kawiarnie.NowaKawiarniaFragment"
+        android:label="fragment_nowa_kawiarnia"
+        tools:layout="@layout/fragment_nowa_kawiarnia" />
+</navigation>
