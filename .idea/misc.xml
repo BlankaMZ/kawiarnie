@@ -3,6 +3,11 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/AndroidStudioProjects/Kawiarnie/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/AndroidStudioProjects/Kawiarnie/app/src/main/res/layout/fragment_coffee_houses_list.xml" value="0.1" />
+        <entry key="..\:/AndroidStudioProjects/Kawiarnie/app/src/main/res/layout/fragment_coffee_houses_map.xml" value="0.1" />
+        <entry key="..\:/AndroidStudioProjects/Kawiarnie/app/src/main/res/layout/fragment_new_coffee_house.xml" value="0.1" />
+        <entry key="..\:/AndroidStudioProjects/Kawiarnie/app/src/main/res/menu/bottom_nav_menu.xml" value="0.1" />
         <entry key="..\:/Kawiarnie/app/src/main/res/layout/activity_main.xml" value="0.13020833333333334" />
         <entry key="..\:/Kawiarnie/app/src/main/res/layout/fragment_lista_kawiarni.xml" value="0.13020833333333334" />
         <entry key="..\:/Kawiarnie/app/src/main/res/layout/fragment_mapa_kawiarni.xml" value="0.23385416666666667" />

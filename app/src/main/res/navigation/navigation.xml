@@ -3,27 +3,25 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/navigation"
-    app:startDestination="@id/listaKawiarniFragment">
+    app:startDestination="@id/coffeeHousesListFragment">
 
     <fragment
-        android:id="@+id/listaKawiarniFragment"
-        android:name="com.example.kawiarnie.ListaKawiarniFragment"
-        android:label="fragment_lista_kawiarni"
-        tools:layout="@layout/fragment_lista_kawiarni" >
+        android:id="@+id/coffeeHousesListFragment"
+        android:name="com.example.kawiarnie.CoffeeHousesListFragment"
+        android:label="fragment_coffee_houses_list"
+        tools:layout="@layout/fragment_coffee_houses_list">
         <action
-            android:id="@+id/action_listaKawiarniFragment_to_nowaKawiarniaFragment"
-            app:destination="@id/nowaKawiarniaFragment"
-            app:popUpTo="@id/listaKawiarniFragment"
-            app:popUpToInclusive="false" />
+            android:id="@+id/action_coffeeHousesListFragment_to_newCoffeeHouseFragment"
+            app:destination="@id/newCoffeeHouseFragment" />
     </fragment>
     <fragment
-        android:id="@+id/mapaKawiarniFragment"
-        android:name="com.example.kawiarnie.MapaKawiarniFragment"
-        android:label="fragment_mapa_kawiarni"
-        tools:layout="@layout/fragment_mapa_kawiarni" />
+        android:id="@+id/coffeeHousesMapFragment"
+        android:name="com.example.kawiarnie.CoffeeHousesMapFragment"
+        android:label="fragment_coffee_houses_map"
+        tools:layout="@layout/fragment_coffee_houses_map" />
     <fragment
-        android:id="@+id/nowaKawiarniaFragment"
-        android:name="com.example.kawiarnie.NowaKawiarniaFragment"
-        android:label="fragment_nowa_kawiarnia"
-        tools:layout="@layout/fragment_nowa_kawiarnia" />
+        android:id="@+id/newCoffeeHouseFragment"
+        android:name="com.example.kawiarnie.NewCoffeeHouseFragment"
+        android:label="fragment_new_coffee_house"
+        tools:layout="@layout/fragment_new_coffee_house" />
 </navigation>

@@ -6,12 +6,13 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 
-class MapaKawiarniFragment : Fragment() {
+class NewCoffeeHouseFragment : Fragment() {
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         arguments?.let {
+
         }
     }
 
@@ -20,7 +21,7 @@ class MapaKawiarniFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_mapa_kawiarni, container, false)
+        return inflater.inflate(R.layout.fragment_new_coffee_house, container, false)
     }
 
 }

@@ -9,7 +9,7 @@ import android.widget.Button
 import androidx.navigation.findNavController
 
 
-class ListaKawiarniFragment : Fragment() {
+class CoffeeHousesListFragment : Fragment() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -22,15 +22,15 @@ class ListaKawiarniFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_lista_kawiarni, container, false)
+        return inflater.inflate(R.layout.fragment_coffee_houses_list, container, false)
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        val button = view.findViewById<Button>(R.id.nowa_kawiarnia_button)
+        val button = view.findViewById<Button>(R.id.new_coffee_house_button)
         button?.setOnClickListener {
             view.findNavController()
-                .navigate(ListaKawiarniFragmentDirections.actionListaKawiarniFragmentToNowaKawiarniaFragment())
+                .navigate(CoffeeHousesListFragmentDirections.actionCoffeeHousesListFragmentToNewCoffeeHouseFragment())
         }
 
     }
