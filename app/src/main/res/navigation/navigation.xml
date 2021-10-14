@@ -8,7 +8,7 @@
     <fragment
         android:id="@+id/coffeeHousesListFragment"
         android:name="com.example.kawiarnie.CoffeeHousesListFragment"
-        android:label="fragment_coffee_houses_list"
+        android:label="@string/list_whole_title"
         tools:layout="@layout/fragment_coffee_houses_list">
         <action
             android:id="@+id/action_coffeeHousesListFragment_to_newCoffeeHouseFragment"
@@ -17,11 +17,11 @@
     <fragment
         android:id="@+id/coffeeHousesMapFragment"
         android:name="com.example.kawiarnie.CoffeeHousesMapFragment"
-        android:label="fragment_coffee_houses_map"
+        android:label="@string/map_whole_title"
         tools:layout="@layout/fragment_coffee_houses_map" />
     <fragment
         android:id="@+id/newCoffeeHouseFragment"
         android:name="com.example.kawiarnie.NewCoffeeHouseFragment"
-        android:label="fragment_new_coffee_house"
+        android:label="@string/new_coffee_house_title"
         tools:layout="@layout/fragment_new_coffee_house" />
 </navigation>

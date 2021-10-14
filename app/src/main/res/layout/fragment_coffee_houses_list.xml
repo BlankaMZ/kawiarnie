@@ -10,7 +10,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/lista_title" />
+        android:text="@string/list_title" />
 
     <Button
         android:id="@+id/new_coffee_house_button"
